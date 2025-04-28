@@ -1,0 +1,181 @@
+Eigengene_Module	term_id	term_name	p_value
+Eigengene_1	GO:0050890	cognition	1
+Eigengene_1	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0098598	learned vocalization behavior or vocal learning	1
+Eigengene_1	GO:0098596	imitative learning	1
+Eigengene_1	GO:0098597	observational learning	1
+Eigengene_1	GO:0007611	learning or memory	1
+Eigengene_1	GO:0007612	learning	1
+Eigengene_1	GO:0007616	long-term memory	1
+Eigengene_1	GO:0007613	memory	1
+Eigengene_1	GO:0008037	cell recognition	1
+Eigengene_1	GO:0008542	visual learning	1
+Eigengene_1	GO:0008306	associative learning	1
+Eigengene_1	GO:0009988	cell-cell recognition	1
+Eigengene_1	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0006376	mRNA splice site recognition	1
+Eigengene_1	GO:0035036	sperm-egg recognition	1
+Eigengene_1	GO:0042297	vocal learning	1
+Eigengene_1	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_1	GO:0021988	olfactory lobe development	1
+Eigengene_1	GO:0021772	olfactory bulb development	1
+Eigengene_1	GO:0021766	hippocampus development	1
+Eigengene_2	GO:0050890	cognition	1
+Eigengene_2	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_2	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0008542	visual learning	1
+Eigengene_2	GO:0008306	associative learning	1
+Eigengene_2	GO:0007611	learning or memory	1
+Eigengene_2	GO:0007612	learning	1
+Eigengene_2	GO:0007613	memory	1
+Eigengene_2	GO:0008037	cell recognition	1
+Eigengene_2	GO:0008038	neuron recognition	1
+Eigengene_2	GO:0007608	sensory perception of smell	1
+Eigengene_2	GO:0006910	phagocytosis, recognition	1
+Eigengene_2	GO:0009988	cell-cell recognition	1
+Eigengene_2	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0000389	mRNA 3'-splice site recognition	1
+Eigengene_2	GO:0006376	mRNA splice site recognition	1
+Eigengene_2	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0035683	memory T cell extravasation	1
+Eigengene_2	GO:0035036	sperm-egg recognition	1
+Eigengene_2	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_2	GO:0021766	hippocampus development	1
+Eigengene_3	GO:0050890	cognition	1
+Eigengene_3	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0061485	memory T cell proliferation	1
+Eigengene_3	GO:0007611	learning or memory	1
+Eigengene_3	GO:0007613	memory	1
+Eigengene_3	GO:0007616	long-term memory	1
+Eigengene_3	GO:0008037	cell recognition	1
+Eigengene_3	GO:0009988	cell-cell recognition	1
+Eigengene_3	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_3	GO:0035036	sperm-egg recognition	1
+Eigengene_4	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_4	GO:0043654	recognition of apoptotic cell	1
+Eigengene_4	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0007608	sensory perception of smell	1
+Eigengene_4	GO:0008037	cell recognition	1
+Eigengene_4	GO:0006910	phagocytosis, recognition	1
+Eigengene_4	GO:0009988	cell-cell recognition	1
+Eigengene_4	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_4	GO:0035036	sperm-egg recognition	1
+Eigengene_5	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_5	GO:0050890	cognition	1
+Eigengene_5	GO:0043654	recognition of apoptotic cell	1
+Eigengene_5	GO:1905674	regulation of adaptive immune memory response	1
+Eigengene_5	GO:1905675	negative regulation of adaptive immune memory response	1
+Eigengene_5	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_5	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_5	GO:0090713	immunological memory process	1
+Eigengene_5	GO:0090716	adaptive immune memory response	1
+Eigengene_5	GO:0007608	sensory perception of smell	1
+Eigengene_5	GO:0007611	learning or memory	1
+Eigengene_5	GO:0007612	learning	1
+Eigengene_5	GO:0008037	cell recognition	1
+Eigengene_5	GO:0006910	phagocytosis, recognition	1
+Eigengene_5	GO:0009988	cell-cell recognition	1
+Eigengene_5	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_5	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_5	GO:0021766	hippocampus development	1
+Eigengene_6	GO:0050890	cognition	1
+Eigengene_6	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_6	GO:0061034	olfactory bulb mitral cell layer development	1
+Eigengene_6	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0098598	learned vocalization behavior or vocal learning	1
+Eigengene_6	GO:0007608	sensory perception of smell	1
+Eigengene_6	GO:0007611	learning or memory	1
+Eigengene_6	GO:0007612	learning	1
+Eigengene_6	GO:0007613	memory	1
+Eigengene_6	GO:0008037	cell recognition	1
+Eigengene_6	GO:0008306	associative learning	1
+Eigengene_6	GO:0006910	phagocytosis, recognition	1
+Eigengene_6	GO:0009988	cell-cell recognition	1
+Eigengene_6	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0035683	memory T cell extravasation	1
+Eigengene_6	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_6	GO:0021766	hippocampus development	1
+Eigengene_6	GO:0021772	olfactory bulb development	1
+Eigengene_6	GO:0021988	olfactory lobe development	1
+Eigengene_7	GO:0002752	cell surface pattern recognition receptor signaling pathway	0.143107470627069
+Eigengene_7	GO:0050890	cognition	1
+Eigengene_7	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0007611	learning or memory	1
+Eigengene_7	GO:0007612	learning	1
+Eigengene_7	GO:0007613	memory	1
+Eigengene_7	GO:0007616	long-term memory	1
+Eigengene_7	GO:0008037	cell recognition	1
+Eigengene_7	GO:0006910	phagocytosis, recognition	1
+Eigengene_7	GO:0008306	associative learning	1
+Eigengene_7	GO:0008542	visual learning	1
+Eigengene_7	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0006617	SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition	1
+Eigengene_7	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_7	GO:0021772	olfactory bulb development	1
+Eigengene_7	GO:0021988	olfactory lobe development	1
+Eigengene_8	GO:0050890	cognition	1
+Eigengene_8	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_8	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0062208	positive regulation of pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0007608	sensory perception of smell	1
+Eigengene_8	GO:0007611	learning or memory	1
+Eigengene_8	GO:0007612	learning	1
+Eigengene_8	GO:0007613	memory	1
+Eigengene_8	GO:0007616	long-term memory	1
+Eigengene_8	GO:0008037	cell recognition	1
+Eigengene_8	GO:0009988	cell-cell recognition	1
+Eigengene_8	GO:0008306	associative learning	1
+Eigengene_8	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_8	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0050890	cognition	1
+Eigengene_9	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_9	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0007608	sensory perception of smell	1
+Eigengene_9	GO:0007612	learning	1
+Eigengene_9	GO:0007611	learning or memory	1
+Eigengene_9	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0002753	cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0042048	olfactory behavior	1
+Eigengene_9	GO:0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	1
+Eigengene_9	GO:0021766	hippocampus development	1
+Eigengene_10	GO:0050890	cognition	1
+Eigengene_10	GO:0050911	detection of chemical stimulus involved in sensory perception of smell	1
+Eigengene_10	GO:0062207	regulation of pattern recognition receptor signaling pathway	1
+Eigengene_10	GO:0008037	cell recognition	1
+Eigengene_10	GO:0008306	associative learning	1
+Eigengene_10	GO:0007616	long-term memory	1
+Eigengene_10	GO:0007608	sensory perception of smell	1
+Eigengene_10	GO:0007611	learning or memory	1
+Eigengene_10	GO:0007612	learning	1
+Eigengene_10	GO:0007613	memory	1
+Eigengene_10	GO:0009988	cell-cell recognition	1
+Eigengene_10	GO:0008542	visual learning	1
+Eigengene_10	GO:0002221	pattern recognition receptor signaling pathway	1
+Eigengene_10	GO:0002752	cell surface pattern recognition receptor signaling pathway	1
+Eigengene_10	GO:0035036	sperm-egg recognition	1
+Eigengene_10	GO:0021766	hippocampus development	1
