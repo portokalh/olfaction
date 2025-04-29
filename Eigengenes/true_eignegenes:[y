@@ -1,0 +1,70 @@
+import numpy as np
+import pandas as pd
+from scipy.cluster.hierarchy import linkage, fcluster, dendrogram
+from scipy.spatial.distance import squareform
+from scipy.stats import spearmanr
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+
+# ==== 1. Load and preprocess ====
+gene_expression = pd.read_excel(gene_expression_file)
+gene_names = gene_expression.iloc[:, 0].values
+gene_expression = gene_expression.iloc[:, 2:]  # assuming column 2 onwards are expressions
+gene_expression = gene_expression.dropna().T  # Subjects as rows
+gene_expression = (gene_expression - gene_expression.mean()) / gene_expression.std()
+
+# ==== 2. Compute the Spearman correlation matrix ====
+print("Computing gene-gene Spearman correlations...")
+corr_matrix, _ = spearmanr(gene_expression, axis=0)
+corr_matrix = corr_matrix[:gene_expression.shape[1], :gene_expression.shape[1]]  # Only genes
+
+# ==== 3. Soft-thresholding: Raise correlations to a power (typical 6–12) ====
+soft_power = 6
+adjacency = np.power(np.abs(corr_matrix), soft_power)
+
+# ==== 4. Build Topological Overlap Matrix (TOM) approximation ====
+print("Building TOM matrix...")
+def calculate_TOM(adjacency):
+    k = adjacency.sum(axis=1)
+    A = adjacency
+    n = adjacency.shape[0]
+    TOM = np.zeros((n, n))
+    for i in range(n):
+        for j in range(i, n):
+            num = (A[i] * A[j]).sum() + A[i, j]
+            denom = min(k[i], k[j]) + 1 - A[i, j]
+            TOM[i, j] = num / denom if denom != 0 else 0
+            TOM[j, i] = TOM[i, j]
+    return TOM
+
+TOM = calculate_TOM(adjacency)
+dissimilarity = 1 - TOM
+
+# ==== 5. Hierarchical clustering based on TOM ====
+print("Clustering genes...")
+linked = linkage(squareform(dissimilarity), method='average')
+
+# Plot dendrogram if you want
+plt.figure(figsize=(10, 7))
+dendrogram(linked, labels=gene_names, leaf_rotation=90, leaf_font_size=8)
+plt.title("Gene Clustering Dendrogram")
+plt.show()
+
+# ==== 6. Cut the dendrogram into modules ====
+max_d = 0.7  # You may want to tweak this
+module_labels = fcluster(linked, t=max_d, criterion='distance')
+
+modules = pd.DataFrame({"Gene": gene_names, "Module": module_labels})
+
+# ==== 7. Compute module eigengenes ====
+eigengenes = {}
+
+for module in np.unique(module_labels):
+    module_genes = modules.loc[modules.Module == module, "Gene"]
+    gene_subset = gene_expression.loc[:, module_genes]
+    
+    if gene_subset.shape[1] < 2:
+        continue  # Skip very tiny modules
+    
+    pca = PCA(n_components=1)
+    module_eigengene = pca.fit_transform(gene
